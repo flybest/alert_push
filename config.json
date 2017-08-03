@@ -1,0 +1,25 @@
+{
+    "CorpId"     : "ww3fc297c3ee304618",
+    "AppsConfig" : [
+        {
+            "AppDesc": "玖天监控",
+            "AgentId": 1000002,
+            "Secret" : "MNSW-Toyr07PP38Fttr1-5G0JsrKpsJkyInS_LaZed0"
+        },
+        {
+            "AppDesc": "北京电网预警",
+            "AgentId": 1000004,
+            "Secret" : "VQD74b7LZ_uQKiH16TujA2UKABwGtnfsR2EbqcFzCCc"
+        },
+        {
+            "AppDesc": "测试应用",
+            "AgentId": 1000003,
+            "Secret" : "ZX5p4vu_MNDi1UrYb2O8gHVd4Pq3ksQQtSo7R6Rd1do"
+        }
+    ],
+    "Push" : {
+        "AppId" : "wIp15JmLqa9HF213g5kQ05",
+        "AppKey" : "0OnxPftmrW6hwYZAJg1SlA",
+        "MasterSecret" : "kYKOhKzQEh99uPSnDC6601"
+    }
+}
