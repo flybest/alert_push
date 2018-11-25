@@ -46,10 +46,10 @@ def sendCardsMsgTest():
         "textcard": {
             "title": msgTitle,
             "description": "<div class=\"highlight\">"+ msgContent +"</div>",
-            "url": "URL"
+            "url": "http://47.93.246.230/alertlist/?type="+ ((agentId==1000004) and "%E9%80%9A%E7%9F%A5" or "%E5%BC%82%E5%B8%B8")
         }
     }
-
+    # print(msg['textcard']['url'])
     api = AppApi(agentId)
     return api.sendMsgToUser(msg)
 
@@ -57,7 +57,7 @@ def sendCardsMsgTest():
 def pushMessageTest():
     msg = {
         "title": "玖天监控",
-        "content": msgContent
+        "content": msgTitle
     }
 
     api = AppApi()
